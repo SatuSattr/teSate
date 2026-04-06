@@ -16,10 +16,25 @@ TeSate is a high-end mobile application built with **React Native** and **Expo**
 
 ## 📸 Screenshots
 
-| Home & Product | Cart & Tracking | Admin Dashboard |
-|:---:|:---:|:---:|
-| ![Home](screenshots/home.jpeg) | ![Cart](screenshots/cart.jpeg) | ![Admin Dashboard](screenshots/admin_dashboard.jpeg) |
-| ![Detail](screenshots/detail.jpeg) | ![Order Status](screenshots/order.jpeg) | ![Admin Products](screenshots/admin_products.jpeg) |
+### 📱 User Interface
+
+| Start | Splash | Login | Register |
+|:---:|:---:|:---:|:---:|
+| ![Start](screenshots/start.jpeg) | ![Splash](screenshots/splashscreen.jpeg) | ![Login](screenshots/login.jpeg) | ![Register](screenshots/register.jpeg) |
+
+| Home | Product Detail | Cart | Order Status |
+|:---:|:---:|:---:|:---:|
+| ![Home](screenshots/home.jpeg) | ![Detail](screenshots/detail.jpeg) | ![Cart](screenshots/cart.jpeg) | ![Order](screenshots/order.jpeg) |
+
+| Payment | Payment Methods | Profile | Notifications |
+|:---:|:---:|:---:|:---:|
+| ![Payment](screenshots/detail_payment.jpeg) | ![Methods](screenshots/detail_payment_method.jpeg) | ![Profile](screenshots/profile.jpeg) | ![Notification](screenshots/notification.jpeg) |
+
+### 🛠 Admin Dashboard
+
+| Overview | Orders | Products | Add Product Form |
+|:---:|:---:|:---:|:---:|
+| ![Admin Overview](screenshots/admin_dashboard.jpeg) | ![Admin Orders](screenshots/admin_orders.jpeg) | ![Admin Products](screenshots/admin_products.jpeg) | ![New Products](screenshots/admin_new_products.jpeg) |
 
 ## 🛠 Tech Stack
 
@@ -42,7 +57,7 @@ TeSate is a high-end mobile application built with **React Native** and **Expo**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/teSate.git
+   git clone https://github.com/SatuSattr/teSate.git
    cd teSate
    ```
 
@@ -58,16 +73,5 @@ TeSate is a high-end mobile application built with **React Native** and **Expo**
 
 4. Scan the QR code with your **Expo Go** app (Android) or **Camera** app (iOS) to run the application.
 
-## 📂 Project Structure
-
-- `app/`: Contains the main screens and Expo Router structure.
-- `components/`: Reusable UI components (ProductCard, AdminTabs, etc.).
-- `context/`: Application-wide states (Cart, Orders, Toast).
-- `assets/`: Icons, images, and static resources.
-
-## 👨‍💻 Author
-
-Created with ❤️ by **Ryan N**.
-
 ---
-*Note: This application is a demonstration of modern mobile UI integration with local state management and API connectivity.*
+Created with ❤️ by **Ryan N**.
