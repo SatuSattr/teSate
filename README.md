@@ -1,50 +1,73 @@
-# Welcome to your Expo app 👋
+# TeSate - Premium Sate Ordering Experience 🍢
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TeSate is a high-end mobile application built with **React Native** and **Expo**, designed to provide a seamless and premium experience for ordering various types of Sate. From a stunning UI to a powerful Admin Dashboard, TeSate bridges the gap between traditional food and modern technology.
 
-## Get started
+## ✨ Key Features
 
-1. Install dependencies
+- **Premium UI/UX**: Crafted with modern design principles, featuring smooth animations and a cohesive color palette.
+- **Smart Shopping Cart**: Manage your orders easily with real-time quantity adjustments and item selection.
+- **Dynamic Order Tracking**: Follow your order status from "Waiting" to "Ready" with a dedicated status screen.
+- **Admin Dashboard**: 
+  - **Business Overview**: Real-time revenue analytics and order counting.
+  - **Order Management**: Monitor and manage customer orders efficiently.
+  - **Product CRUD**: Add, edit, and delete menu items directly from the app.
+- **Real-time Notifications**: Toast notifications for instant user feedback.
+- **Elegant Splash & Onboarding**: First impressions matter, starting with a clean logo splash.
 
+## 📸 Screenshots
+
+| Home & Product | Cart & Tracking | Admin Dashboard |
+|:---:|:---:|:---:|
+| ![Home](screenshots/home.jpeg) | ![Cart](screenshots/cart.jpeg) | ![Admin Dashboard](screenshots/admin_dashboard.jpeg) |
+| ![Detail](screenshots/detail.jpeg) | ![Order Status](screenshots/order.jpeg) | ![Admin Products](screenshots/admin_products.jpeg) |
+
+## 🛠 Tech Stack
+
+- **Framework**: [Expo](https://expo.dev/) (React Native)
+- **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/) (File-based routing)
+- **Styling**: Vanilla React Native StyleSheet
+- **Icons**: [Ionicons](https://ionic.io/icons)
+- **Images**: [Expo Image](https://docs.expo.dev/versions/latest/sdk/image/)
+- **State Management**: React Context API
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+- Expo Go app on your mobile device (to preview)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/teSate.git
+   cd teSate
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the project:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Scan the QR code with your **Expo Go** app (Android) or **Camera** app (iOS) to run the application.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📂 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- `app/`: Contains the main screens and Expo Router structure.
+- `components/`: Reusable UI components (ProductCard, AdminTabs, etc.).
+- `context/`: Application-wide states (Cart, Orders, Toast).
+- `assets/`: Icons, images, and static resources.
 
-## Get a fresh project
+## 👨‍💻 Author
 
-When you're ready, run:
+Created with ❤️ by **Ryan N**.
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Note: This application is a demonstration of modern mobile UI integration with local state management and API connectivity.*
